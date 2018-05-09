@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F2A73D6F20A2E02A007B7C8C /* SQLiteDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A73D6E20A2E02A007B7C8C /* SQLiteDatabase.swift */; };
+		F2A73D7120A2F6EF007B7C8C /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A73D7020A2F6EF007B7C8C /* Movie.swift */; };
 		F2EB87B520A26F190064D8F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EB87B420A26F190064D8F2 /* AppDelegate.swift */; };
 		F2EB87B720A26F190064D8F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EB87B620A26F190064D8F2 /* ViewController.swift */; };
 		F2EB87BA20A26F190064D8F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2EB87B820A26F190064D8F2 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F2A73D6E20A2E02A007B7C8C /* SQLiteDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteDatabase.swift; sourceTree = "<group>"; };
+		F2A73D7020A2F6EF007B7C8C /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		F2EB87B120A26F190064D8F2 /* Tutorial05.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tutorial05.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2EB87B420A26F190064D8F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2EB87B620A26F190064D8F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +64,8 @@
 				F2EB87BB20A26F190064D8F2 /* Assets.xcassets */,
 				F2EB87BD20A26F190064D8F2 /* LaunchScreen.storyboard */,
 				F2EB87C020A26F190064D8F2 /* Info.plist */,
+				F2A73D6E20A2E02A007B7C8C /* SQLiteDatabase.swift */,
+				F2A73D7020A2F6EF007B7C8C /* Movie.swift */,
 			);
 			path = Tutorial05;
 			sourceTree = "<group>";
@@ -138,6 +144,8 @@
 			files = (
 				F2EB87B720A26F190064D8F2 /* ViewController.swift in Sources */,
 				F2EB87B520A26F190064D8F2 /* AppDelegate.swift in Sources */,
+				F2A73D7120A2F6EF007B7C8C /* Movie.swift in Sources */,
+				F2A73D6F20A2E02A007B7C8C /* SQLiteDatabase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
